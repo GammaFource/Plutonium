@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Steam">
+      <UniqueIdentifier>{74781551-62dd-4260-ab6e-a4634cd4ff80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steam\Exports">
+      <UniqueIdentifier>{29ce5b32-9e77-4f2c-9e76-149da91674bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steam\Interfaces">
+      <UniqueIdentifier>{d716f158-a0ed-408e-8093-12fdd321a264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steam\Utils">
+      <UniqueIdentifier>{458804c5-bc12-4b36-93e4-963170e72743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Others">
+      <UniqueIdentifier>{74665549-0ee2-4086-8145-9bcc7c4a6e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{c5cd607a-d155-467b-9941-33460a6d998a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steam">
+      <UniqueIdentifier>{0eeea835-f0b9-4141-af20-7c5f9ea842d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steam\Interfaces">
+      <UniqueIdentifier>{11de7f62-b8c1-4f1e-8680-4fc75c587575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steam\Utils">
+      <UniqueIdentifier>{92a808a3-c17b-4878-ba5f-9733447af2d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SteamAPI_GameServer.cpp">
+      <Filter>Source Files\Steam\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamAPI_Interfaces.cpp">
+      <Filter>Source Files\Steam\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamAPI_Main.cpp">
+      <Filter>Source Files\Steam\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamAPI_Callbacks.cpp">
+      <Filter>Source Files\Steam\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbacksManager.cpp">
+      <Filter>Source Files\Steam\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamApps004.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamFriends009.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamUtils005.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamUser016.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamNetworking005.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamMatchmakingServers002.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamMatchmaking008.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CSteamRemoteStorage004.cpp">
+      <Filter>Source Files\Steam\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamApps004.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamFriends009.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamMatchmaking008.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamMatchmakingServers002.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamNetworking005.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamRemoteStorage004.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamUser016.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamUtils005.h">
+      <Filter>Header Files\Steam\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbacksManager.h">
+      <Filter>Header Files\Steam\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
